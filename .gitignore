@@ -1,0 +1,12 @@
+cat > .gitignore << 'EOF'
+# dependencies
+node_modules/
+
+# playwright outputs
+test-results/
+playwright-report/
+
+# system files
+.DS_Store
+.env
+EOF
